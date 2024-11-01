@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@media only screen and (max-width: 768px) {
+  * {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    background-color: #020147;
+    color: rgb(176, 240, 248);
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .bx.bxs-data {
+    font-size: 36px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .topnav #myLinks {
+    display: none;
+    list-style: none;
+  }
+
+  .topnav a {
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    background-color: #030231be;
+    transition: all 0.5s;
+  }
+
+  .nav-links {
+    font-weight: 300;
+    transition: all 0.5s;
+  }
+
+  .nav-links a:hover {
+    transform: translateY(-5px);
+  }
+
+  .topnav a.icon {
+    background-color: #03023100;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 52px;
+    width: 37px;
+  }
+
+  i.fa.fa-bars {
+    position: relative;
+    left: 9px;
+    top: 8px;
+    font-size: 30px;
+  }
+
+  .topnav a:hover {
+    text-shadow: 0 0 10px #133e87, 0 0 20px #cbdceb;
+  }
+
+  .active {
+    background-color: #608bc1;
+  }
+
+  .hero {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+    padding: 200px 40px 60vh;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-shadow: 0 0 10px #133e87, 0 0 20px #cbdceb;
+  }
+
+  .hero h2 {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 5px;
+  }
+
+  .beskrivelse {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    padding-bottom: 100px;
+  }
+
+  .beskrivelse p {
+    max-width: 500px;
+  }
+
+  .beskrivelse img {
+    max-width: 400px;
+    justify-content: center;
+    border-radius: 5%;
+  }
+
+  .titel {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1px;
+    text-shadow: 0 0 10px #133e87, 0 0 20px #cbdceb;
+    gap: 5px;
+    padding: 0 40px;
+  }
+
+  .projekter {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    padding-bottom: 100px;
+  }
+
+  .opgave {
+    background-color: #030157;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+
+  .opgave:hover {
+    transform: translateY(-5px);
+  }
+
+  .resume {
+    font-size: 14px;
+  }
+
+  .teknologi {
+    font-size: 12px;
+    font-style: italic;
+    color: #cbdceb;
+  }
+
+  .titel {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #133e87, 0 0 20px #cbdceb;
+    gap: 5px;
+    padding: 0 40px;
+  }
+
+  .erfaring {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 0 40px;
+  }
+
+  .erfaring-info {
+    width: 100%;
+    border: 1px solid #608bc1;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #030157;
+    transition: all 0.3s;
+  }
+
+  .erfaring-info h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .erfaring-info p {
+    font-size: 16px;
+    font-style: italic;
+    margin: 2px 0;
+  }
+
+  .kontakt {
+    font-size: 36px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .kontakt i {
+    transition: all 0.5s;
+  }
+
+  .kontakt i:hover {
+    transform: translateY(-5px);
+    text-shadow: 0 0 10px #133e87, 0 0 20px #cbdceb;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
